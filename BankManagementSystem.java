@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class BankManagementSystem {
 
-    // JDBC URL, username, and password of MySQL server
+    // JDBC URL, username, and password of MySQL server 
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/bank_management_system";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "Gcet@123";
