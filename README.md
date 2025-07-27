@@ -31,3 +31,10 @@ CREATE TABLE accounts (
     customer_name VARCHAR(100),
     balance DOUBLE
 );
+
+Bank-Management-System/
+│
+├── BankManagementSystem.java   # Main Java file
+├── README.md                   # This README
+└── database.sql                # (Optional) SQL file for schema setup
+
