@@ -32,9 +32,38 @@ CREATE TABLE accounts (
     balance DOUBLE
 );
 
+# How to Run
+Clone this repository:
+git clone https://github.com/your-username/Bank-Management-System.git
+
+Set up your MySQL database using the schema above.
+
+Update your MySQL credentials in the BankManagementSystem.java file:
+
+private static final String JDBC_URL = "jdbc:mysql://localhost:3306/bank_management_system";
+private static final String USERNAME = "your_username";
+private static final String PASSWORD = "your_password";
+
+
+Compile and run the program:
+javac BankManagementSystem.java
+java BankManagementSystem
+
+# Output
+1. Create Account
+2. Make a Transaction
+3. View Account Details
+4. Exit
+Enter your choice: 
+📁 Folder Structure
+pgsql
+Copy
+Edit
 Bank-Management-System/
 │
 ├── BankManagementSystem.java   # Main Java file
 ├── README.md                   # This README
 └── database.sql                # (Optional) SQL file for schema setup
 
+🛡️ Disclaimer
+This project is for educational purposes only and does not include advanced security mechanisms like authentication, encryption, or secure transaction handling.
