@@ -54,16 +54,15 @@ java BankManagementSystem
 2. Make a Transaction
 3. View Account Details
 4. Exit
-Enter your choice: 
-📁 Folder Structure
-pgsql
-Copy
-Edit
+Enter your choice:
+
+
+# Folder Structure
 Bank-Management-System/
 │
 ├── BankManagementSystem.java   # Main Java file
 ├── README.md                   # This README
 └── database.sql                # (Optional) SQL file for schema setup
 
-🛡️ Disclaimer
+# Disclaimer
 This project is for educational purposes only and does not include advanced security mechanisms like authentication, encryption, or secure transaction handling.
